@@ -40,11 +40,13 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                {/* <p className="mb-1x">{introdata.description}</p> */}
+                <p className="mb-1x">{introdata.description1}</p>
+                <p className="mb-1x">{introdata.description2}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_h" className="ac_btn btn ">
-                      Projects
+                      Kinerja Kerja
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -52,7 +54,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/about">
                     <div id="button_h" className="ac_btn btn">
-                      About Me
+                      Tentang Saya
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -60,7 +62,16 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Hubungi Saya
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
+                  {/* jangan lupa buat konten untuk menaruh galery */}
+                  <Link to="/">
+                    <div id="button_h" className="ac_btn btn">
+                      Galery
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

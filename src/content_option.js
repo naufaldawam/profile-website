@@ -1,22 +1,25 @@
-const logotext = "{Initials Here}";
+const logotext = "Ichwanul Muslimin";
+const logoBesideTextAtHome = "{logo disini nanti} ";
 const meta = {
-    title: "{Your name}",
-    description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
+    title: "Ichwanul muslimin",
+    description: "Saya Ichwanul Muslimin.",
 };
 
 const introdata = {
-    title: "Hi, I'm {Your Name}",
+    title: "Hi, Saya Ichwanul Muslimin.",
     animated: {
-        first: "Technologist",
-        second: "Visionary",
-        third: "Ethical Hacker",
-        fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
+        first: "Ketua KNPI DKI Jakarta 2015",
+        second: "HIPMI JAYA 2013",
+        third: "JAPNAS (Jaringan Pengusaha Nasional) 2015 - Sekarang",
+        fourth: "Ketua LazisNU DKI Jakarta 2023 - sekarang",
+        fifth: "Wakil Ketua DPD Gerindra DKI Jakarta",
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
-    your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    // description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
+    description1: "Anggota DPRD DKI Jakarta 2019 – 2024",
+    description2: "Komisi B ( Perekonomian )",
+    // your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    your_img_url: "https://i.ibb.co/gwKVS6d/ichwanul-muslimin-2-169.jpg",
 };
 
 const dataabout = {
@@ -160,4 +163,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    logoBesideTextAtHome
 };

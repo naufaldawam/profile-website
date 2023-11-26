@@ -1,21 +1,38 @@
-import React, { useEffect, useState } from "react";
-import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
+// import React, { useEffect, useState } from "react";
+// import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
 
+
+// const Themetoggle = () => {
+//   const [theme, settheme] = useState(localStorage.getItem("theme"));
+//   const themetoggle = () => {
+//     settheme(theme === "dark" ? "light" : "dark");
+//   };
+//   useEffect(() => {
+//     document.documentElement.setAttribute('data-theme', theme);
+//     localStorage.setItem('theme', theme ); 
+//   }, [theme]);
+//   return (
+//     <div className="nav_ac" onClick={themetoggle}>
+//       <WiMoonAltWaningCrescent4 />
+//     </div>
+//   );
+// };
+
+// export default Themetoggle;
+
+
+import React, { useEffect, useState } from "react";
 
 const Themetoggle = () => {
-  const [theme, settheme] = useState(localStorage.getItem("theme"));
-  const themetoggle = () => {
-    settheme(theme === "dark" ? "light" : "dark");
-  };
+  const [theme, setTheme] = useState(localStorage.getItem("theme"));
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme ); 
+    localStorage.setItem('theme', theme); 
   }, [theme]);
-  return (
-    <div className="nav_ac" onClick={themetoggle}>
-      <WiMoonAltWaningCrescent4 />
-    </div>
-  );
+
+  // Hapus tombol dan fungsi themetoggle
+  return null;
 };
 
 export default Themetoggle;
