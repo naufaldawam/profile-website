@@ -11,7 +11,11 @@ const Themetoggle = () => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme ); 
   }, [theme]);
-  return null;
+  return (
+    <div className="nav_ac" onClick={themetoggle}>
+      {/* <WiMoonAltWaningCrescent4 /> */}
+    </div>
+  );
 };
 
 export default Themetoggle;
