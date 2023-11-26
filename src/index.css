@@ -1,11 +1,18 @@
 :root {
-    --bg-color: #000000;
+    /* --bg-color: #000000;
     --primary-color: #000000;
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+    --overlay-color: rgb(12 12 12 / 63%); */
+    --bg-color: #ffffff;
+    --primary-color: #ffffff;
+    --secondary-color: #000;
+    --text-color: #000;
+    --text-color-2: #000;
+    --text-color-3: rgb(204, 0, 0);
+    --overlay-color: rgb(255 255 255 / 70%);
 }
 
 [data-theme="light"] {
