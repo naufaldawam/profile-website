@@ -23,8 +23,25 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Siapa sih saya itu ?",
+    aboutme1: 
+    "Saya adalah anggota DPRD DKI Jakarta periode 2019–2024 yang tergabung dalam Komisi B (Perekonomian). Sebagai wakil rakyat, saya aktif terlibat dalam kritik dan dukungan terhadap Pemprov DKI Jakarta serta masyarakat dalam berbagai kegiatan.",
+    aboutme2: 
+    "Salah satu kontribusi saya adalah dalam mengkritisi dan mengusulkan pembentukan PANSUS terkait Pembangunan JIS yang roboh, menunjukkan keterlibatan saya dalam pemantauan dan evaluasi pembangunan di wilayah ini. Selain itu, saya juga turut serta dalam mengawal proses peningkatan Usaha Mikro, Kecil, dan Menengah (UMKM) di DKI Jakarta, mendukung pemberdayaan ekonomi lokal.",
+    aboutme3: 
+    "Saya telah berhasil merealisasikan musyawarah perencanaan pembangunan (musrembang) di Jakarta Timur yang belum dilaksanakan sebelumnya, menunjukkan komitmen saya terhadap partisipasi masyarakat dalam proses pengambilan keputusan. Selain berfokus pada ranah ekonomi, saya juga aktif secara sosial dengan membantu berbagai kepentingan masyarakat.",
+    aboutme4: 
+    "Keikutsertaan saya dalam kegiatan bazar murah dan mendapatkan penghargaan Jakarta Youth Award 2023 dari Koalisi Masyarakat Sipil Untuk Pemuda Jakarta (KMSPJ) menandakan kontribusi positif saya dalam memajukan kesejahteraan masyarakat Jakarta.",
+    aboutme5: 
+    "Dalam lingkup transportasi dan kemacetan, saya memberikan masukan kepada pemprov melalui DISHUB DKI untuk mengurangi kemacetan dan meningkatkan efektivitas kebijakan Ganjil Genap.",
+    aboutme6:
+    "Selain itu, saya berperan dalam menginisiasi pengajuan anggaran untuk sarana dan prasarana Dinas UMKM DKI Jakarta, mendukung upaya peningkatan infrastruktur untuk mendukung usaha masyarakat.",
+    aboutme7:
+    "Selaku anggota DPRD, saya juga terlibat aktif dalam mengumpulkan dan menyalurkan bantuan kepada Gaza, baik melalui upaya pribadi maupun melalui LazisNU DKI Jakarta.",
+    aboutme8:
+    "Penting bagi saya untuk mendorong Dinas Tenaga Kerja demi menyediakan pelatihan dan pekerjaan bagi warga yang memerlukan, memperkuat keterlibatan saya dalam mendukung kesejahteraan dan peningkatan kualitas hidup masyarakat Jakarta.",
+    
+
 };
 const worktimeline = [{
         jobtitle: "Example 1",
@@ -150,8 +167,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    // github: "https://github.com/naufaldawam",
+    linkedin: "https://binabangunbangsa.com/ichwanul-muslimin-anggota-dprd-dki-dapil-jakarta-6/",
+    whatsapp: "https://wa.me/6281283566949",
+
 };
 export {
     meta,
