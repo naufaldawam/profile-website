@@ -18,8 +18,8 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between bg-white">
           <div className="">
-            <img className="p-1" height="50px" width="auto" src={logoBesideTextAtHome}/>
-            <img className="p-1" height="50px" width="auto" src={logoBesideTextAtHome1}/>
+            <img className="image-logo p-1" height="50px" width="auto" src={logoBesideTextAtHome}/>
+            <img className="image-logo p-1" height="50px" width="auto" src={logoBesideTextAtHome1}/>
             <Link  className="navbar-brand nav_ac" to="/">
               {/* {logoBesideTextAtHome} */}
               {logotext}
