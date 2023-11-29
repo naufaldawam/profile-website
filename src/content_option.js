@@ -1,5 +1,6 @@
 const logotext = "Ichwanul Muslimin";
-const logoBesideTextAtHome = "{logo disini nanti} ";
+const logoBesideTextAtHome = "https://ik.imagekit.io/naufal/LOGO%20GERINDRA-page-001_Cm1GoWs7p.jpg?updatedAt=1701094621261";
+const logoBesideTextAtHome1 = "https://ik.imagekit.io/naufal/logo-dprd_9AwU3er0U.jpg?updatedAt=1701240868635";
 const meta = {
     title: "Ichwanul muslimin",
     description: "Saya Ichwanul Muslimin.",
@@ -19,7 +20,8 @@ const introdata = {
     description1: "Anggota DPRD DKI Jakarta 2019 – 2024",
     description2: "Komisi B ( Perekonomian )",
     // your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
-    your_img_url: "https://i.ibb.co/gwKVS6d/ichwanul-muslimin-2-169.jpg",
+    // your_img_url: "https://ik.imagekit.io/naufal/FOTO%20BANG%20ANUL%20BAJU%20PUTIH-page-001_OcXS6kkqC.jpg?updatedAt=1701094603549",
+    your_img_url: "https://ik.imagekit.io/naufal/ichwan.png?updatedAt=1701240697722",
 };
 
 const dataabout = {
@@ -168,7 +170,7 @@ const contactConfig = {
 
 const socialprofils = {
     // github: "https://github.com/naufaldawam",
-    linkedin: "https://binabangunbangsa.com/ichwanul-muslimin-anggota-dprd-dki-dapil-jakarta-6/",
+    // linkedin: "https://binabangunbangsa.com/ichwanul-muslimin-anggota-dprd-dki-dapil-jakarta-6/",
     whatsapp: "https://wa.me/6281283566949",
 
 };
@@ -182,5 +184,6 @@ export {
     contactConfig,
     socialprofils,
     logotext,
-    logoBesideTextAtHome
+    logoBesideTextAtHome,
+    logoBesideTextAtHome1
 };
