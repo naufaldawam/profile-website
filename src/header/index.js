@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext ,socialprofils, logoBesideTextAtHome } from "../content_option";
+import { logotext ,socialprofils, logoBesideTextAtHome, logoBesideTextAtHome1 } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
@@ -16,11 +16,16 @@ const Headermain = () => {
   return (
     <>
       <header className="fixed-top site__header">
-        <div className="d-flex align-items-center justify-content-between">
-          <Link  className="navbar-brand nav_ac" to="/">
-            {logoBesideTextAtHome}
-            {logotext}
-          </Link>
+        <div className="d-flex align-items-center justify-content-between bg-white">
+          <div className="">
+            <img className="p-1" height="50px" width="auto" src={logoBesideTextAtHome}/>
+            <img className="p-1" height="50px" width="auto" src={logoBesideTextAtHome1}/>
+            <Link  className="navbar-brand nav_ac" to="/">
+              {/* {logoBesideTextAtHome} */}
+              {logotext}
+            </Link>
+          </div>
+  
           <div className="d-flex align-items-center">
           <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
